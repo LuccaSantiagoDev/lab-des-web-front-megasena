@@ -4,5 +4,10 @@ export interface Props {
     nomeMunicipioUFSorteio: string,
     acumulado: boolean,
     dataApuracao: string,
-    listaDezenas: string[]
+    listaDezenas: string[],
+    dataProximoConcurso:string,
+    valorEstimadoProximoConcurso:number,
+
+
+    
 }
