@@ -4,6 +4,7 @@ import { Cabecalho } from "../components/Cabecalho";
 import { Local } from "../components/Local/index";
 import { Numeros } from "../components/Numeros/Index";
 import { ProximoC } from "../components/ProximoC";
+import { Busca } from "../components/Busca";
 
 import { WrapperSld } from "./styles";
 import { ThemeProvider } from "styled-components";
@@ -45,6 +46,13 @@ export default function Principal() {
             dataProximoConcurso={concurso.dataProximoConcurso}></ProximoC>
         </WrapperSld>
         </ThemeProvider>}
-    </>
+
+
+
+        <Busca/>
+     </>
+
+
+
     );
 }
